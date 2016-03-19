@@ -1,4 +1,4 @@
-# ZenHub userscripts
+# [ZenHub](https://www.zenhub.io/) userscripts
 
 This repository currently contains the following userscript(s)... more may be added in the future:
 
