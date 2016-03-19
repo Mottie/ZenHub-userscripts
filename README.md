@@ -3,6 +3,7 @@
 This repository currently contains the following userscript(s)... more may be added in the future:
 
 * ZenHub sort issues
+* ZenHub toggle meta data (labels)
 
 # Installation
 
@@ -26,3 +27,9 @@ This repository currently contains the following userscript(s)... more may be ad
 Hover over the pipeline header to reveal the sort arrows. Issues can only be sorted by issue number.
 
 ![zenhub-sort-issues](https://cloud.githubusercontent.com/assets/136959/13900020/3d5e1c94-edca-11e5-821e-c9665a66458f.gif)
+
+## ZenHub Toggle Meta Data:
+
+Click on the label icon to show or hide the pipeline meta data (labels & other data)
+
+![zenhub-toggle-meta](https://cloud.githubusercontent.com/assets/136959/13901479/04dbfeb2-edf3-11e5-9e97-467fd929907c.gif)
