@@ -1,7 +1,8 @@
 // ==UserScript==
 // @name          ZenHub Toggle Meta
-// @version       0.1.0
+// @version       0.1.1
 // @description   Toggle pipeline issue meta data (labels)
+// @license       https://creativecommons.org/licenses/by-sa/4.0/
 // @namespace     http://github.com/Mottie
 // @include       https://github.com/*
 // @grant         GM_addStyle

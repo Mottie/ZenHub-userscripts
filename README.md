@@ -18,8 +18,8 @@ This repository currently contains the following userscript(s)... more may be ad
 
 2. Install the userscript by clicking on the link:
 
-* [ZenHub sort issues](https://raw.githubusercontent.com/Mottie/ZenHub-userscripts/master/zenhub-sort-issues.user.js).
-* [ZenHub toggle meta](https://raw.githubusercontent.com/Mottie/ZenHub-userscripts/master/zenhub-toggle-meta.user.js).
+* [ZenHub sort issues](https://raw.githubusercontent.com/Mottie/ZenHub-userscripts/master/zenhub-sort-issues.user.js) ([GreasyFork](https://greasyfork.org/en/scripts/18116-zenhub-sort-issues)).
+* [ZenHub toggle meta](https://raw.githubusercontent.com/Mottie/ZenHub-userscripts/master/zenhub-toggle-meta.user.js) ([GreasyFork](https://greasyfork.org/en/scripts/18119-zenhub-toggle-meta)).
 
 # Description
 

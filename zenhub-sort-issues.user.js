@@ -1,7 +1,8 @@
 // ==UserScript==
 // @name          ZenHub Sort Issues
-// @version       0.1.2
+// @version       0.1.3
 // @description   Sort pipeline issues by issue number
+// @license       https://creativecommons.org/licenses/by-sa/4.0/
 // @namespace     http://github.com/Mottie
 // @include       https://github.com/*
 // @grant         GM_addStyle
