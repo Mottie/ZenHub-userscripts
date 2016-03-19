@@ -2,8 +2,8 @@
 
 This repository currently contains the following userscript(s)... more may be added in the future:
 
-* ZenHub sort issues
-* ZenHub toggle meta data (labels)
+* [ZenHub sort issues](#zenhub-sort-issues)
+* [ZenHub toggle meta](#zenhub-toggle-meta) (labels)
 
 # Installation
 
@@ -19,6 +19,7 @@ This repository currently contains the following userscript(s)... more may be ad
 2. Install the userscript by clicking on the link:
 
 * [ZenHub sort issues](https://raw.githubusercontent.com/Mottie/ZenHub-userscripts/master/zenhub-sort-issues.user.js).
+* [ZenHub toggle meta](https://raw.githubusercontent.com/Mottie/ZenHub-userscripts/master/zenhub-toggle-meta.user.js).
 
 # Description
 
@@ -28,7 +29,7 @@ Hover over the pipeline header to reveal the sort arrows. Issues can only be sor
 
 ![zenhub-sort-issues](https://cloud.githubusercontent.com/assets/136959/13900020/3d5e1c94-edca-11e5-821e-c9665a66458f.gif)
 
-## ZenHub Toggle Meta Data:
+## ZenHub Toggle Meta:
 
 Click on the label icon to show or hide the pipeline meta data (labels & other data)
 
