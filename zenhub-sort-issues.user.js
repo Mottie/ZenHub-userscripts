@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name          ZenHub Sort Issues
-// @version       0.1.1
+// @version       0.1.2
 // @description   Sort pipeline issues by issue number
 // @namespace     http://github.com/Mottie
 // @include       https://github.com/*
@@ -118,6 +118,9 @@
     busy = false;
   };
 
-  init();
+  // initialize if ZenHub active
+  if (document.querySelector(".zhio")) {
+    init();
+  }
 
 })();
