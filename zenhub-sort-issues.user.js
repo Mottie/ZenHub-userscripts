@@ -4,6 +4,7 @@
 // @description   Sort pipeline issues by issue number
 // @namespace     http://github.com/Mottie
 // @include       https://github.com/*
+// @grant         GM_addStyle
 // @require       https://cdnjs.cloudflare.com/ajax/libs/tinysort/2.2.4/tinysort.js
 // @run-at        document-idle
 // @author        Rob Garrison >> http://github.com/Mottie
