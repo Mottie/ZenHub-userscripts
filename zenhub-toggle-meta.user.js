@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name          ZenHub Toggle Meta
-// @version       0.1.1
+// @version       0.1.2
 // @description   Toggle pipeline issue meta data (labels)
 // @license       https://creativecommons.org/licenses/by-sa/4.0/
 // @namespace     http://github.com/Mottie
@@ -35,7 +35,7 @@
     var markup = [
       "<div class='zh-board-menu-item'>",
         "<button id='zh-toggle-meta-button' class='zh-toggle-button tooltipped tooltipped-n selected' aria-label='Toggle Issue Meta Data'>",
-          "<span class='zh-toggle-meta zh-octicon-grey'>",
+          "<span class='zh-toggle-meta'>",
             "<svg xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 15 15'>",
               "<path fill='none' stroke='currentColor' stroke-linecap='round' d='M1.972 1.156H6.1c.279.027.788.322 1.005.497l6.618 6.469c.206.2.197.937 0 1.149l-4.581 4.537c-.196.164-.848.18-1.03 0l-6.669-6.73c-.186-.194-.316-.751-.318-1.017V2.096c.015-.314.529-.926.847-.94z'/>",
               "<circle fill='none' stroke='currentColor' cx='4.8' cy='4.6' r='1'/>",
@@ -86,9 +86,9 @@
       meta[indx].style.display = isVisible ? '' : 'none';
     }
     if (isVisible) {
-      removeClass(button, "selected");
-    } else {
       addClass(button, "selected");
+    } else {
+      removeClass(button, "selected");
     }
   },
 
