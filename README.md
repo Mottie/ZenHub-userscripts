@@ -18,16 +18,16 @@ This repository currently contains the following userscript(s)... more may be ad
 
 2. Install the userscript by clicking on the link:
 
-* [ZenHub sort issues](https://raw.githubusercontent.com/Mottie/ZenHub-userscripts/master/zenhub-sort-issues.user.js) ([GreasyFork](https://greasyfork.org/en/scripts/18116-zenhub-sort-issues)).
-* [ZenHub toggle meta](https://raw.githubusercontent.com/Mottie/ZenHub-userscripts/master/zenhub-toggle-meta.user.js) ([GreasyFork](https://greasyfork.org/en/scripts/18119-zenhub-toggle-meta)).
+  * [ZenHub sort issues](https://raw.githubusercontent.com/Mottie/ZenHub-userscripts/master/zenhub-sort-issues.user.js) ([GreasyFork](https://greasyfork.org/en/scripts/18116-zenhub-sort-issues)).
+  * [ZenHub toggle meta](https://raw.githubusercontent.com/Mottie/ZenHub-userscripts/master/zenhub-toggle-meta.user.js) ([GreasyFork](https://greasyfork.org/en/scripts/18119-zenhub-toggle-meta)).
 
 # Description
 
 ## ZenHub Sort Issues:
 
-Hover over the pipeline header to reveal the sort arrows. Issues can only be sorted by issue number.
+Hover over the pipeline header to reveal the sort arrows. In the latest update, issues may be sorted based on a selected set of data.
 
-![zenhub-sort-issues](https://cloud.githubusercontent.com/assets/136959/13900020/3d5e1c94-edca-11e5-821e-c9665a66458f.gif)
+![zenhub-sort-issues](https://cloud.githubusercontent.com/assets/136959/14061332/ec60109a-f34b-11e5-8ae8-118ab64a45a8.gif)
 
 ## ZenHub Toggle Meta:
 
