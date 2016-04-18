@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name          ZenHub Sort Issues
-// @version       1.0.1
+// @version       1.0.2
 // @description   Sort pipeline issues by issue number
 // @license       https://creativecommons.org/licenses/by-sa/4.0/
 // @namespace     http://github.com/Mottie
@@ -20,7 +20,7 @@
   sortTarget = {
     // special case: sort using value of aria-label attribute
     // use ";" as a separator
-    "assignee" : ".js-zh-assignee-name a:not([aria-label='not assigned']);aria-label",
+    "assignee" : ".js-zh-assignee-name span[aria-label];aria-label",
     // these all sort on element text
     "estimate" : ".zh-issuecard-estimate-badge",
     "number"   : ".zh-issuecard-number",
@@ -83,12 +83,14 @@
             opts.attr = selector[1];
           }
           // include a issue number secondary sort
-          tinysort(issues, {
+          tinysort(issues, opts);
+          /*, {
             useFlex  : false,
             selector : sortTarget.number,
             order    : direction ? "asc" : "desc",
             place    : "start"
-          }, opts);
+          });
+          */
         }
       }
     }
