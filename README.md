@@ -21,6 +21,19 @@ This repository currently contains the following userscript(s)... more may be ad
   * [ZenHub sort issues](https://raw.githubusercontent.com/Mottie/ZenHub-userscripts/master/zenhub-sort-issues.user.js) ([GreasyFork](https://greasyfork.org/en/scripts/18116-zenhub-sort-issues)).
   * [ZenHub toggle meta](https://raw.githubusercontent.com/Mottie/ZenHub-userscripts/master/zenhub-toggle-meta.user.js) ([GreasyFork](https://greasyfork.org/en/scripts/18119-zenhub-toggle-meta)).
 
+3. If you need to use these scripts on GitHub Enterprise sites, you'll need to modify the userscript by adding *your Enterprise URL* near the top:
+
+      ```js
+      // @include https://github-enterprise.dev/*
+      ```
+
+   You might also want to disable the automatic updating of the userscript to prevent removal of the above line after an update. Remove these two lines from near the top of the userscript:
+
+      ```js
+      // @updateURL   ...
+      // @downloadURL ...
+      ```
+
 # Description
 
 ## ZenHub Sort Issues:

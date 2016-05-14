@@ -80,7 +80,7 @@
   };
 
   // initialize if ZenHub active
-  if (document.querySelector(".zhio")) {
+  if (document.querySelector(".zhio, .zhe")) {
     init();
   }
 
