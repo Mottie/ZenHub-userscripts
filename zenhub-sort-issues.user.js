@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name          ZenHub Sort Issues
-// @version       1.0.2
+// @version       1.0.3
 // @description   Sort pipeline issues by issue number
 // @license       https://creativecommons.org/licenses/by-sa/4.0/
 // @namespace     http://github.com/Mottie
