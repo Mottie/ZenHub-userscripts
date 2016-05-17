@@ -20,7 +20,7 @@
   sortTarget = {
     // special case: sort using value of aria-label attribute
     // use ";" as a separator
-    "assignee" : ".js-zh-assignee-name span[aria-label];aria-label",
+    "assignee" : ".js-zh-assignee-name [aria-label];aria-label",
     // these all sort on element text
     "estimate" : ".zh-issuecard-estimate-badge",
     "number"   : ".zh-issuecard-number",
