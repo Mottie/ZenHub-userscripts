@@ -33,6 +33,7 @@
       ".zh-pipeline-heading { position: relative; overflow: visible; }",
       ".zhu-sort-arrow-wrapper { position: absolute; right: 0; width: 15px; height: 23px; }",
       ".zh-pipeline:not(.zh-pipeline-collapsed) .zh-pipeline-heading:hover .zhu-sort-arrow { display: block; }",
+      ".zh-pipeline:not(.zh-pipeline-collapsed) .zh-pipeline-heading:hover .zh-issue-counter { visibility: hidden; }",
       ".zh-pipeline-heading .zhu-sort-arrow { display: none; position: relative; top: 3px; right: 0; color: #888; cursor: pointer; }",
       ".zh-pipeline-heading .zhu-sort-arrow.desc { bottom: -6px; top: auto; }",
       ".pipeline-sort-menu { display: none; position: absolute; z-index: 1000; top: -4px; width: 115px; }",
