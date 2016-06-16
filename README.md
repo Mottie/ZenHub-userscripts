@@ -5,6 +5,10 @@ This repository currently contains the following userscript(s)... more may be ad
 * [ZenHub sort issues](#zenhub-sort-issues)
 * [ZenHub toggle meta](#zenhub-toggle-meta) (labels)
 
+Related Userscripts:
+
+* [GitHub issue comments](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-issue-comments) (Hide ZenHub pipeline changes)
+
 # Installation
 
 1. Make sure you have user scripts enabled in your browser (these instructions refer to the latest versions of the browser):
@@ -47,7 +51,3 @@ Hover over the pipeline header to reveal the sort arrows. In the latest update, 
 Click on the label icon to show or hide the pipeline meta data (labels & other data)
 
 ![zenhub-toggle-meta](https://cloud.githubusercontent.com/assets/136959/13901479/04dbfeb2-edf3-11e5-9e97-467fd929907c.gif)
-
-# Related Userscripts
-
-* [GitHub issue comments](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-issue-comments) (Hide ZenHub pipeline changes)
