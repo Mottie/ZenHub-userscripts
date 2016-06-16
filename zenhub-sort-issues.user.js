@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name          ZenHub Sort Issues
-// @version       1.0.4
+// @version       1.0.5
 // @description   Sort pipeline issues by issue number
 // @license       https://creativecommons.org/licenses/by-sa/4.0/
 // @namespace     http://github.com/Mottie
@@ -47,7 +47,7 @@
 
   // no need to support older IE
   closest = function(el, name) {
-    while (el && !el.classList.contains(name)) {
+    while (el && el.nodeName !== 'BODY' && !el.classList.contains(name)) {
       el = el.parentNode;
     }
     return el.classList.contains(name) ? el : null;
