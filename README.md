@@ -1,6 +1,6 @@
 # [ZenHub](https://www.zenhub.io/) userscripts
 
-This repository currently contains the following userscript(s)... more may be added in the future:
+This repository currently contains the following userscripts... more may be added in the future:
 
 * [ZenHub sort issues](#zenhub-sort-issues)
 * [ZenHub toggle meta](#zenhub-toggle-meta) (labels)
