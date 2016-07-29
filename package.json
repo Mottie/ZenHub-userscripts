@@ -1,6 +1,6 @@
 {
   "name": "zenhub-userscripts",
-  "version": "0.1.11",
+  "version": "0.2.0",
   "description": "Userscripts to add functionality to ZenHub",
   "license": "CC-BY-SA-4.0",
   "repository": "Mottie/ZenHub-userscripts"
