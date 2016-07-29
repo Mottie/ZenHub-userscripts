@@ -1,4 +1,4 @@
-# [ZenHub](https://www.zenhub.io/) userscripts
+# [ZenHub](https://www.zenhub.io/) userscripts [![tag](https://img.shields.io/github/tag/Mottie/ZenHub-userscripts.svg)](https://github.com/Mottie/ZenHub-userscripts/tags)
 
 This repository currently contains the following userscripts... more may be added in the future:
 
