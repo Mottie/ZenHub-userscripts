@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name          ZenHub Sort Issues
-// @version       1.1.0
+// @version       1.1.1
 // @description   Sort pipeline issues by issue number
 // @license       https://creativecommons.org/licenses/by-sa/4.0/
 // @namespace     http://github.com/Mottie
@@ -33,8 +33,8 @@
     GM_addStyle(`
       .zhc-pipeline-header__actions { position: relative; overflow: visible; }
       .zhu-sort-arrow-wrapper { position: absolute; left: -20px; top: 0; width: 15px; height: 23px; cursor: pointer; }
-      .zhc-pipeline:not(.zhc-pipeline-header--is-collapsed) .zhc-pipeline-header:hover .zhu-sort-arrow { display: block; }
-      .zhc-pipeline:not(.zhc-pipeline-header--is-collapsed) .zhc-pipeline-header:hover .zhc-badge--issue-count { visibility: hidden; }
+      .zhc-pipeline:not(.zhc-pipeline--is-collapsed) .zhc-pipeline-header:hover .zhu-sort-arrow { display: block; }
+      .zhc-pipeline:not(.zhc-pipeline--is-collapsed) .zhc-pipeline-header:hover .zhc-badge--issue-count { visibility: hidden; }
       .zhc-pipeline-header .zhu-sort-arrow { display: none; position: relative; top: 3px; right: 0; color: #888; }
       .zhc-pipeline-header .zhu-sort-arrow.desc { bottom: -6px; top: auto; }
       .pipeline-sort-menu { display: none; position: absolute; z-index: 1000; top: -4px; width: 115px; cursor: auto; }
