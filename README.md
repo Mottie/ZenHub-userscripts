@@ -1,5 +1,8 @@
 # [ZenHub](https://www.zenhub.io/) userscripts [![tag](https://img.shields.io/github/tag/Mottie/ZenHub-userscripts.svg)](https://github.com/Mottie/ZenHub-userscripts/tags)
 
+# NOTE: In the lastest ZenHub update, all issue cards are now absolutely positioned.
+Because of this change, I am dropping support of these userscripts.
+
 This repository currently contains the following userscripts... more may be added in the future:
 
 * [ZenHub sort issues](#zenhub-sort-issues)
